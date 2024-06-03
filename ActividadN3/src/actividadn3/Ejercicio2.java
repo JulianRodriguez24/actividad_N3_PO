@@ -17,23 +17,23 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Solicita al usuario que ingrese el valor de n
+        
         System.out.print("Ingrese el valor de n: ");
         int n = scanner.nextInt();
         
         int sum = 0;
         int count = 0;
         
-        // Itera a través de los números desde 1 hasta n
+        // 1.Itera los números desde 1 hasta n
         for (int i = 1; i <= n; i++) {
-            // Verifica si el número es múltiplo de 5 y de 3
+            // 2. Verifica si el número es múltiplo de 5 y de 3
             if (i % 5 == 0 && i % 3 == 0) {
-                sum += i; // Suma el número a la suma total
-                count++; // Incrementa el contador de múltiplos
+                sum += i; 
+                count++; 
             }
         }
         
-        // Imprime los resultados
+        // 3. Imprimir los resultados
         System.out.println("Cantidad de multiplos de 5 y 3: " + count);
         System.out.println("Suma de los multiplos de 5 y 3: " + sum);
     }

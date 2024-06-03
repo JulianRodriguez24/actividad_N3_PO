@@ -13,15 +13,16 @@ public class Ejercicio15 {
      * usuario)y se imprima.
      */
     public static void main(String[] args) {
-        // Definir el tamaño de la matriz
+        Scanner scanner = new Scanner(System.in);
+        
         int filas = 5;
         int columnas = 6;
 
-        // Crear la matriz
+        // Creacion de la matriz
         int[][] matriz = new int[filas][columnas];
 
-        // Crear un escáner para leer la entrada del usuario
-        Scanner scanner = new Scanner(System.in);
+        
+        
 
         // Pedir al usuario que ingrese el número inicial n
         System.out.print("Ingrese el numero inicial (n): ");
@@ -37,7 +38,7 @@ public class Ejercicio15 {
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 matriz[i][j] = numeroImpar;
-                numeroImpar += 2; // Incrementar para obtener el siguiente número impar
+                numeroImpar += 2; // Incrementar para obtener número impar
             }
         }
 

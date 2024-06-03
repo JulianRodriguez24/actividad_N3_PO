@@ -20,7 +20,7 @@ public class Ejercicio3 {
         
         int start, end;
 
-        // Solicita al usuario que ingrese el rango y valida que el inicial sea menor que el final
+        
         while (true) {
             System.out.print("Ingrese el numero inicial: ");
             start = scanner.nextInt();
@@ -36,7 +36,7 @@ public class Ejercicio3 {
         
         int sum = 0;
 
-        // Suma los números pares dentro del rango
+        // Suma de los números pares dentro del rango
         for (int i = start; i <= end; i++) {
             if (i % 2 == 0) {
                 sum += i;
@@ -44,7 +44,7 @@ public class Ejercicio3 {
             
         }
         
-        // Imprime el resultado
+        // Imprimir el  resultado
         System.out.println("La suma de los numeros pares en el rango de " + start + " a " + end + " es: " + sum);
         
     }

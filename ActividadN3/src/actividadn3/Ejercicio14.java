@@ -14,10 +14,10 @@ public class Ejercicio14 {
      */
     public static void main(String[] args) {
 
-        // Definir el tamaño del arreglo
+        
         int tamaño = 50;
 
-        // Crear el arreglo
+        // Creacion del arreglo
         int[] arreglo = new int[tamaño];
 
         // Crear una instancia de la clase Random

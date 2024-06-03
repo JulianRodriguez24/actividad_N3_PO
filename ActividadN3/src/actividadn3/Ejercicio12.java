@@ -17,7 +17,7 @@ public class Ejercicio12 {
       int filas = 5;
         int columnas = 5;
 
-        // Crear la matriz
+        // Creacion de la matriz
         int[][] matriz = new int[filas][columnas];
 
         // Inicializar la matriz con el valor 2
@@ -27,7 +27,7 @@ public class Ejercicio12 {
             }
         }
 
-        // Imprimir la matriz
+        // Imprecion de la matriz
         System.out.println("Matriz 5x5 inicializada con el valor 2:");
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {

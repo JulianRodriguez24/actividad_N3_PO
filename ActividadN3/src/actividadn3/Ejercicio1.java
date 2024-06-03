@@ -20,17 +20,17 @@ public class Ejercicio1 {
         System.out.println("Ingrese un numero:");
         int n = scanner.nextInt();
 
-        // Contador para llevar la cuenta de los impares encontrados y la suma acumulada
+        // 1.Contador para llevar la cuenta de los impares encontrados y la suma acumulada
         int contadorImpares = 0;
         int sumaImpares = 0;
 
-        // Comenzamos a buscar los impares después de n
+        // 2. Comenzamos a buscar los impares después de n
         int numeroActual = n + 1;
 
         System.out.println("Los siguientes 25 impares a " + n + " son:");
-        // Iteramos hasta que encontremos los 25 impares siguientes
+        // 3. Iteramos hasta que encontremos los 25 impares siguientes
         while (contadorImpares < 25) {
-            if (numeroActual % 2 != 0) { // Si es impar
+            if (numeroActual % 2 != 0) { 
                 System.out.println(numeroActual);
                 sumaImpares += numeroActual;
                 contadorImpares++;
